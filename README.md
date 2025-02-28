@@ -15,8 +15,3 @@ git clone https://github.com/Deb2oo/YOLO-Explorer.git
 cd YOLO-Explorer
 npm install
 npm start
-
-# link :
-cd frontend npm install npm start Runs the app at http://localhost:3000/
-
-cd ../backend npm install npm start
