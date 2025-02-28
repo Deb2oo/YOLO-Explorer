@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+.app-container {
+  background-image: url("C:\Users\91810\Desktop\internship 8000\YOLO-Explorer\frontend\src\images\Gemini_Generated_Image_tuctqttuctqttuct.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    background-size: contain;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #5b14ce, #8e44ad);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.branding {
+  padding: 20px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+  margin-top: 30px;
+}
+
+.branding h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.branding h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #f1f1f1;
+  opacity: 0.9;
+}
+
+.about-project {
+  margin: 40px auto;
+  max-width: 800px;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.6);
+  animation: fadeIn 1s ease-in-out;
+}
+
+.about-project h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.about-project p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+}
+
+input[type="file"] {
+  padding: 10px;
+  border: 2px dashed #ddd;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="file"]:hover {
+  border-color: #ffffff;
+  transform: scale(1.05);
+}
+
+.webcam-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.webcam-container video {
+  border: 4px solid #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.image-preview {
+  width: 320px;
+  margin-top: 10px;
+  border-radius: 15px;
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-preview:hover {
+  transform: scale(1.05);
+}
+
+.button {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  padding: 12px 25px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #0056b3, #003f7f);
+  transform: translateY(-2px);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.toggle-camera {
+  background: linear-gradient(135deg, #28a745, #218838);
+}
+
+.toggle-camera:hover {
+  background: linear-gradient(135deg, #218838, #1e7e34);
+}
+
+.capture-button {
+  background: linear-gradient(135deg, #ff6b6b, #d63031);
+}
+
+.capture-button:hover {
+  background: linear-gradient(135deg, #d63031, #b71c1c);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+canvas {
+  max-width: 100%;
+  border: 3px solid white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+ul li {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  margin: 5px auto;
+  border-radius: 5px;
+  width: 60%;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+ul li:hover {
+  background: rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+}
+
+.footer {
+  margin-top: 40px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .about-project {
+    max-width: 90%;
+  }
+
+  .image-preview {
+    width: 90%;
+  }
+
+  ul li {
+    width: 80%;
+  }
+} 
