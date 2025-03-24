@@ -21,7 +21,7 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads"), {
 
 // MongoDB Connection
 mongoose
-  .connect("mongodb://localhost:27017/yolo-explorer", {  // Use your own MongoDB URI
+  .connect("// Use your own MongoDB URI", { 
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
