@@ -50,7 +50,7 @@ cp .env.example .env
 
 # Run the application
 npm run dev
-
+```
 yolo-explorer/
 ├── client/               # React frontend
 │   ├── public/           # Static assets
