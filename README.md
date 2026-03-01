@@ -73,17 +73,6 @@ Watch YOLO Explorer in action:
 Diagram showing frontend-backend interaction, YOLOv8 inference, and MongoDB integration.
 
 
-👨‍💻 Team Contributions
-
-Debjyoti Adak	              ----------->       Backend Developer	Developed APIs using Node.js & Express, handled MongoDB integration  |
-Arundhoti Chatterjee	      ----------->     	 ML Engineer	Trained YOLOv8, optimized detection accuracy   |
-Arghayadip Tung	            -----------> 	     Frontend Developer	Built interactive UI with React and Tailwind CSS   |
-Arghya Gayen	              -----------> 	     Testing & Debugging	Conducted unit & integration testing, debugged and optimized accuracy
-Anisha Maji & Jaya Naskar	  -----------> 	     Data Engineers	Collected, cleaned, and analyzed datasets for training
-Dinesh Maity & Ankan Das	  -----------> 	     Annotation Team	Labeled and augmented image data to improve model diversity
-Ahsan Ali & Ankit Raj	      -----------> 	     Research & Documentation	Handled literature reviews, wrote documentation for future iterations
-
-
 🧭 Future Scope
 
 # Deployment on embedded systems like Raspberry Pi or Jetson Nano
